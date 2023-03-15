@@ -1,0 +1,7 @@
+// 例1: 在 xxx.proto 文件中定义 Example1 message
+syntax = "proto2";
+
+message myMsg {
+    optional string str = 1; //The message needed to send
+    optional int32 index=2; //message index 
+}
